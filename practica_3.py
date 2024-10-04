@@ -1,22 +1,22 @@
-# nums = [1, 2, 3, 4]
+nums = [1, 2, 3, 4]
 
-# n=1
-# output=[]
-# for i in range(0,len(nums),1):
-#     #print(nums[i],'i')
-#     # x*=i+n
-#     # n=+1
-#     print(i,'i')
-#     x=1
-#     for j in range(0,len(nums),1):
-#         print(j,'j')
-#         if j!=i:
-#             x*=nums[j]
-#     output.append(x)
+n=1
+output=[]
+for i in range(0,len(nums),1):
+    #print(nums[i],'i')
+    # x*=i+n
+    # n=+1
+    print(i,'i')
+    x=1
+    for j in range(0,len(nums),1):
+        print(j,'j')
+        if j!=i:
+            x*=nums[j]
+    output.append(x)
 
-#     print(x,'multiplicacion')
+    print(x,'multiplicacion')
 
-# print(output)
+print(output)
 
 # palabra1='foo'
 # palabra2='bar'
